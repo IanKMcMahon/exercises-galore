@@ -1,0 +1,48 @@
+# ****How Web Works Exercise****
+
+## **Part One: Solidify Terminology**
+
+In your own terms, define the following terms:
+
+- What is HTTP?
+
+Hypertext Transfer Protocol. This is a common protocol used to tranfer information across a network
+
+- What is a URL?
+
+Uniform Resource Locator. Using a protocol like http or https, URLs serve as an address, a way to reference or find web resources.
+
+- What is DNS?
+
+Domain Name System. This is a 'phonebook' of the internet in which all resources are given an IP Address
+
+- What is a query string?
+
+The query string allows you to pass key-value pairs into the URL
+
+- What are two HTTP verbs and how are they different?
+
+GET and POST. GET is used on pages and resources that don't have side effects Whereas POST is the opposite (i.e. credit card purchase).
+
+- What is an HTTP request?
+
+An HTTP request is a request from a client to a server which follows the HTTP protocol
+
+- What is an HTTP response?
+
+An HTTP response is a response from a server to a client which follows the HTTP protocol
+
+- What is an HTTP header? Give a couple examples of request and response headers you have seen.
+
+- Headers provide additional information about the request or the response. Here are some examples:
+Request headers: Host, User-Agent, Accept, Cookie, Cache-Control
+Response headers: Content-Type, Last-Modified, Set-Cookie, Cache-Control
+
+- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+
+Using DNS, the browser deciphers the URL into an IP Address. A request is then made to that address. The server then sends a response accompanied by a code (ie 200). 
+The browser then compiles all resources and makes a DOM. It includes any and all additional HTTP requests and receives seperate responses for each from the server.
+
+## ****Part Two: Practice Tools****
+
+## **Part Three: Explore Dev Tools**
